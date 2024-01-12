@@ -1,0 +1,40 @@
+# Pobierz z ekranu swoje imię i wyświetl napis- “Twoje imię” - super, że jesteś
+# Właśnie zakładasz stronę z treściami tylko dla dorosłych. Wyświetl na ekranie stosowny komunikat i spytaj się użytkownika o wiek - jeśli ma poniżej 18, w grzeczny sposób odmów dostępu do strony, w przeciwnym razie napisz, że użytkownik może korzystać ze strony.
+# Oblicz BMI - dla podanych przez użytkownika wartości wagi i wzrostu -należy podzielić wagę wyrażoną w kilogramach przez wzrost podniesiony do kwadratu, wyrażony w metrach, czyli w skrócie BMI = kg / m2.
+# Zdrowy dorosły człowiek o prawidłowym stosunku wagi do wzrostu ma wskaźnik w granicach 18,5–24,9. BMI poniżej 18,5 informuje o niedowadze. Osoby ze wskaźnikiem BMI 25,0-29,9 cierpią na nadwagę. Współczynnik BMI powyżej 30,0 to już otyłość.Wyświetl odpowiedni komunikat do uzyskanego wyniku. 
+# Wyświetl na ekranie liczby nieparzyste od 10 do 10 (włącznie) <10,20> w pętli for lub while
+# Jesteś rekruterem stewardess do linii lotniczych. Chcesz by wszystkie dziewczyny w Twoim zespole miały wzrost od <167-180> . Sprawdź czy podane dane przez użytkownika spełniają ten warunek.
+
+
+#1 imie
+# imie = (input("podaj swoje imie "))
+# print(f" {imie} super, że jesteś")
+#2 wiek
+# wiek = int(input("podaj swój wiek "))
+# if wiek >= 18:
+#     print("Możesz korzystać z strony")
+# else:
+#   print("Nie możesz korzystać z strony, przepraszamy")
+#3 bmi
+# waga = float(input("Podaj swoją wagę w kilogramach: "))
+# wzrost = float(input("Podaj swój wzrost w metrach: "))
+# bmi = waga/(wzrost**2)
+# print(bmi)
+#4 zdrowy dorosły
+# bmi = float(input("Podaj swoje bmi: "))
+# if bmi < 18.5:
+#   print("Masz niedowage :/")
+# elif bmi >= 18.5 and bmi <= 24.9:
+#   print("Masz prawidlowa wage :)")
+# elif bmi >= 25 and bmi <= 29.9: 
+#   print("Masz nadwage :/")
+# else:
+#   print("Masz otyłość :(")
+#5 liczby nieparzyste
+for i in range(10,20,2):
+  if i % 2 = 0:
+  i+1
+  print(i)
+while
+
+
